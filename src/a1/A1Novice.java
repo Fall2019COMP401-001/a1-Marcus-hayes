@@ -50,7 +50,9 @@ public class A1Novice {
 			 * 
 			 */
 			
-			System.out.println(fname.charAt(0) + ". " + lname + ": " + sum);
+			String strSum = String.format("%.2f", sum);
+			
+			System.out.println(fname.charAt(0) + ". " + lname + ": " + strSum);
 			
 		}
 		
